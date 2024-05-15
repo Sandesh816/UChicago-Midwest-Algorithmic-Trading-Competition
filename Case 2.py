@@ -97,4 +97,4 @@ plt.legend(TEST.columns)
 plt.show()
 
 
-## Note: We implemented this while we were using yfinance to test our code when we lacked the historical trading data:
+## Note: We implemented yfinance while we lacked the historical trading data

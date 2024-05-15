@@ -3,7 +3,7 @@
 This repository contains the code for the trading strategies developed for the 2024 UChicago Midwest Algorithmic Trading Competition by Amherst College team,
 comprising Sandesh Ghimire, Sebastien Brown, Prakhar Agrawal, and Alexander Nichols
 
-The project involves two main cases: 
+The project involved two cases: 
 Case 1: Building a live trading bot 
 Case 2: Building a portfolio optimization model
 

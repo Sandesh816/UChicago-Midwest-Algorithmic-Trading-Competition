@@ -156,8 +156,8 @@ class MyXchangeClient(xchange_client.XChangeClient):
     async def place_orders(self):
         print("Placing orders")
         competitor_best = await self.get_competitors_best()
-        stop_loss_ratio = 0.98  # 5% stop-loss
-        take_profit_ratio = 1.01  # 5% take-profit
+        stop_loss_ratio = 0.97  # 3% stop-loss
+        take_profit_ratio = 1.03  # 3% take-profit
 
         for symbol, best_prices in competitor_best.items():
             book = self.order_books[symbol]
